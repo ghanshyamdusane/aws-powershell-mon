@@ -1,7 +1,7 @@
 # aws-powershell-mon
 aws-powershell-mon
 
-.\mon-put-metrics-mem.ps1 -EC2AccessKey AKIAILCJY4IKXI4XT5TQ -EC2SecretKey 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 -mem_util -mem_avail -memory_units kilobytes
+.\mon-put-metrics-mem.ps1 -EC2AccessKey <AccessKeyID> -EC2SecretKey <SecretKey> -mem_util -mem_avail -memory_units kilobytes
 
 .\mon-put-metrics-disk.ps1  -aws_credential_file C:\awscreds.conf -disk_drive C:, d -disk_space_util -disk_space_used -disk_space_avail -disk_space_units gigabytes
 
